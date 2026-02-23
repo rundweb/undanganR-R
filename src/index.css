@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-Heading: "Great Vibes", cursive; 
+  --font-Body:"Montserrat", sans-serif;
+  --font-Sub:"Playfair Display", serif;
+}
