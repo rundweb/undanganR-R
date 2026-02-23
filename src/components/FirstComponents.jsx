@@ -9,7 +9,7 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 
 const FirstComponents = () => {
   return (
-    <div className='max-w-xl relative flex items-center justify-center min-h-screen m-auto bg-cover' style={{backgroundImage:`url(${bg})`}}>
+    <div className='max-w-xl relative flex items-center justify-center min-h-screen m-auto bg-cover bg-center' style={{backgroundImage:`url(${bg})`}}>
       <div className='z-10 relative flex flex-col gap-5 items-center justify-center text-center'>
         <div data-aos="zoom-in" data-aos-duration="1000">
             <img src={wd} alt="wd-raka-risma" className='w-56 h-80 rounded-full shadow-lg object-cover'/>
