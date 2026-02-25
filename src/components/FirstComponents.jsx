@@ -7,12 +7,16 @@ import bgwd from "../assets/Images/bgwd.png";
 
 // icons
 import { FaEnvelopeOpenText } from "react-icons/fa";
-import PengantinComponents from "./PengantinComponents";
 
 // music
 import musicFile from "../assets/music/akad.mp3";
+
+
+// components
 import DateComponents from "./DateComponents";
 import AkadNikah from "./AkadNikah";
+import Gallery from "./Gallery";
+import PengantinComponents from "./PengantinComponents";
 
 const FirstComponents = () => {
   const [isi, setIsi] = useState(false);
@@ -112,7 +116,7 @@ const FirstComponents = () => {
 
       {isi && (
         <div>
-          <PengantinComponents /> <DateComponents /> <AkadNikah />
+          <PengantinComponents /> <DateComponents /> <AkadNikah /> <Gallery/>
         </div>
       )}
     </div>
