@@ -11,6 +11,8 @@ import PengantinComponents from "./PengantinComponents";
 
 // music
 import musicFile from "../assets/music/akad.mp3";
+import DateComponents from "./DateComponents";
+import AkadNikah from "./AkadNikah";
 
 const FirstComponents = () => {
   const [isi, setIsi] = useState(false);
@@ -18,9 +20,9 @@ const FirstComponents = () => {
   const audioRef = useRef(null);
 
   const handleClick = () => {
-  setIsi(true);
-  audioRef.current.play();
-};
+    setIsi(true);
+    audioRef.current.play();
+  };
   return (
     <div>
       <div
@@ -108,7 +110,11 @@ const FirstComponents = () => {
         <source src={musicFile} type="audio/mpeg" />
       </audio>
 
-      {isi && <PengantinComponents />}
+      {isi && (
+        <div>
+          <PengantinComponents /> <DateComponents /> <AkadNikah />
+        </div>
+      )}
     </div>
   );
 };

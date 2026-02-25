@@ -2,6 +2,8 @@ import React from "react";
 
 // images
 import bg2 from "../assets/Images/bg2.png";
+import mp1 from "../assets/Images/mp.png";
+import mp2 from "../assets/Images/mp2.png";
 
 const PengantinComponents = () => {
   return (
@@ -27,12 +29,16 @@ const PengantinComponents = () => {
             data-aos-duration="1000"
             className="font-Sub text-xs tracking-wide font-medium text-amber-950"
           >
-            Assalamualaikm Wr. Wb. <br /> Dengan menohon Rahmat & Rudho Allah
+            Assalamualaikm Wr. Wb. <br /> Dengan menohon Rahmat & Ridho Allah
             SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri
             acara pernikahan putra-putri kami:
           </p>
         </div>
         <div className="flex flex-col mt-3.5">
+          <div className="w-full flex items-center justify-center mb-6" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src={mp1} alt="" className="w-40 h-52 rounded-full object-cover object-center border-white shadow-lg border-2"/>
+          </div>
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -52,7 +58,7 @@ const PengantinComponents = () => {
             data-aos-duration="1000"
             className="text-xs font-Sub font-medium text-amber-950 mt-2.5 tracking-wide"
           >
-            Putri dari Padangan Bapak Sarkim abdul hakim <br /> & Ibu Ika
+            Putri dari Pasangan Bapak Sarkim abdul hakim <br /> & Ibu Ika
             jartika
           </p>
           <h3
@@ -62,6 +68,10 @@ const PengantinComponents = () => {
           >
             &
           </h3>
+          <div className="w-full flex items-center justify-center mb-6" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src={mp2} alt="" className="w-40 h-52 rounded-full object-cover object-center border-white shadow-lg border-2"/>
+          </div>
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -79,10 +89,9 @@ const PengantinComponents = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-offset="1"
             className="text-xs font-Sub font-medium text-amber-950 mt-2.5 tracking-wide"
           >
-            Putri dari Padangan Bapak Dedi Lesmana (alm) <br /> & Ibu Yulis
+            Putra dari Pasangan Bapak Dedi Lesmana (alm) <br /> & Ibu Yulis
           </p>
         </div>
       </div>
